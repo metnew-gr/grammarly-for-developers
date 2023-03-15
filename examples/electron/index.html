@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com https://*.grammarly.com; style-src 'self' 'unsafe-inline'; img-src data: https://*.grammarly.com; connect-src https://*.grammarly.com https://*.grammarly.io wss://*.grammarly.com" />
-    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com https://js.grammarly.com; style-src 'unsafe-inline'; img-src data: https://*.grammarly.com; connect-src * 'unsafe-inline'">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://*.grammarly.com; style-src 'self' 'unsafe-inline'; img-src data: https://*.grammarly.com; connect-src https://*.grammarly.com https://*.grammarly.io wss://*.grammarly.com" />
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://js.grammarly.com; style-src 'unsafe-inline'; img-src data: https://*.grammarly.com; connect-src * 'unsafe-inline'">
     <title>Grammarly Electron Demo</title>
   </head>
   <style>
@@ -78,7 +78,7 @@ It can even help when you wanna refine ur slang or formality level. That's espec
       </div>
     </grammarly-editor-plugin>
 
-    <script src="https://unpkg.com/@grammarly/editor-sdk@2.3.11?clientId=client_CAsxR7Djxg9EiT9VCyE3uP"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@grammarly/editor-sdk@2.3.11/lib/index.iife.min.js?clientId=client_CAsxR7Djxg9EiT9VCyE3uP"></script>
     <script>
       Grammarly.init().then((grammarly) => {
         window.registerGrammarlyAuthCallback(url => {
