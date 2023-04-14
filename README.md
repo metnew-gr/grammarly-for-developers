@@ -36,14 +36,6 @@ Add our real-time writing assistance to your app with just a few lines of code.
 [vue-status]: https://img.shields.io/npm/v/@grammarly/editor-sdk-vue.svg?style=flat&color=green&label=@grammarly/editor-sdk-vue
 [vue-package]: https://www.npmjs.com/package/@grammarly/editor-sdk-vue
 
-### GrammarlyGO beta in the Text Editor SDK
-
-**GrammarlyGO** is a brand-new assistant available from Grammarly, powered by generative AI. If you're a developer, you can apply for the GrammarlyGO beta in the Text Editor SDK to add generative AI in your app in minutes, assisting your users with quick prompts for summarizing text or instant rewrites for length and tone. [Apply for the beta now!](https://developer.grammarly.com/grammarlygo-beta)
-
-<img width="488" alt="GrammarlyGO" src="https://user-images.githubusercontent.com/5179225/224142685-78d71965-60a5-48be-9fb7-97b741d88d3c.png">
-
-✔️ For more information on GrammarlyGO, including information as it relates to other Grammarly products, check out [GrammarlyGO: A New Generation in Writing](https://www.grammarly.com/grammarlygo).
-
 ### Changelog
 We typically release new versions of the SDK on Tuesdays. We occasionally release urgent patches on other days of the week. [Check the changelog](https://developer.grammarly.com/docs/changelog/) for when each version was released and a summary of what was included in each release. 
 
