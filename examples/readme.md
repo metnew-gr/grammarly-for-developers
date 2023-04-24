@@ -113,9 +113,9 @@ This app shows how to configure suggestion categories for your app.
 
 ### Tone detector
 
-This app shows how to turn on the [tone detector](https://developer.grammarly.com/docs/tone) for your app.
+[This app](./editor-sdk-tone) shows how to turn on the [tone detector](https://developer.grammarly.com/docs/tone) for your app.
 
-- [Tone Detector Example App](./editor-sdk-tone)
+![tone-detector](https://user-images.githubusercontent.com/5179225/234138596-c1cd66ac-4a95-4c72-ba53-0359ee324332.gif)
 
 **Note:** The tone detector feature is only available on the [Plus plan](https://developer.grammarly.com/plans).
 
